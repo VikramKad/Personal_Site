@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
+@font-face {
+  font-family: 'LINESeed';
+  src: url('./assets/fonts/LineSeed/LINESeedSans_Rg.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'LINESeed';
+  src: url('./assets/fonts/LineSeed/LINESeedSans_Th.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINESeed';
+  src: url('./assets/fonts/LineSeed/LINESeedSans_Bd.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINESeed';
+  src: url('./assets/fonts/LineSeed/LINESeedSans_XBd.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LINESeed';
+  src: url('./assets/fonts/LineSeed/LINESeedSans_He.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --background: #F6F4F2;
+  --text: #07062A;
+  --separator: #717171;
+}
+
+body {
+    @apply font-custom;
+  background: var(--background);
+  color: var(--text);
+  font-family: 'LINESeed', sans-serif;
 }

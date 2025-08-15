@@ -8,6 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const location = useLocation();
 
+  // Call hooks unconditionally, then combine
   const matchProjectId = useMatch("/projects/:id");
   const matchProjectsWildcard = useMatch("/projects/*");
   const matchProjectsRoot = useMatch("/projects");
@@ -32,7 +33,9 @@ const Navbar = () => {
           : "bg-background/90 backdrop-blur shadow-md",
       ].join(" ")}
     >
+      {/* Top bar */}
       <div className="mx-auto flex items-center justify-end px-4 sm:px-6 py-3 sm:py-4">
+        {/* Desktop links (right-aligned) */}
         <div className="hidden sm:flex items-center gap-8">
           {links.map((section) => (
             <HashLink
@@ -46,6 +49,7 @@ const Navbar = () => {
           ))}
         </div>
 
+        {/* Mobile hamburger */}
         <button
           aria-label="Toggle menu"
           aria-expanded={open}
@@ -58,6 +62,7 @@ const Navbar = () => {
         </button>
       </div>
 
+      {/* Mobile dropdown (vertical) */}
       <div
         className={`sm:hidden absolute left-0 right-0 top-full border-t border-gray-200 transform transition-transform origin-top ${
           open ? "scale-y-100" : "scale-y-0"

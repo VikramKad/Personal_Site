@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Personal_Site/static/css/main.36b28fe9.css",
-    "main.js": "/Personal_Site/static/js/main.0386e911.js",
-    "static/media/Proj2Preview1.png": "/Personal_Site/static/media/Proj2Preview1.ca72abf5a461a923f2eb.png",
-    "static/media/linkedinlogo.ico": "/Personal_Site/static/media/linkedinlogo.33d3e4d8779a77b4c4c4.ico",
-    "static/media/Proj1-feature.png": "/Personal_Site/static/media/Proj1-feature.23e1b11cebfdd23e4ec1.png",
-    "static/media/Proj1Preview1.png": "/Personal_Site/static/media/Proj1Preview1.23278edfb18ff899fc62.png",
-    "static/media/Proj1Preview2.png": "/Personal_Site/static/media/Proj1Preview2.4098541aa05745d37d5a.png",
-    "static/media/Proj1-onboarding.png": "/Personal_Site/static/media/Proj1-onboarding.1c7e8a381ce43420bccd.png",
-    "static/media/Proj1-hero.png": "/Personal_Site/static/media/Proj1-hero.1e53ca7f9fffca1b09e8.png",
-    "static/media/LINESeedSans_XBd.otf": "/Personal_Site/static/media/LINESeedSans_XBd.8eb1fc06339f10f9db75.otf",
-    "static/media/LINESeedSans_Rg.otf": "/Personal_Site/static/media/LINESeedSans_Rg.d2860eb55bd7501e02da.otf",
-    "static/media/LINESeedSans_Th.otf": "/Personal_Site/static/media/LINESeedSans_Th.ee6cfc3e921251456d06.otf",
-    "static/media/LINESeedSans_Bd.otf": "/Personal_Site/static/media/LINESeedSans_Bd.61d1db089c2c4c48d535.otf",
-    "static/media/LINESeedSans_He.otf": "/Personal_Site/static/media/LINESeedSans_He.fcbb429a1af0ad8b222e.otf",
-    "static/media/Proj2Preview2.png": "/Personal_Site/static/media/Proj2Preview2.7d65e3fef82c7da1f388.png",
-    "static/media/Proj1-impact.png": "/Personal_Site/static/media/Proj1-impact.b8cd6250a435caa8477a.png",
-    "index.html": "/Personal_Site/index.html",
-    "main.36b28fe9.css.map": "/Personal_Site/static/css/main.36b28fe9.css.map",
-    "main.0386e911.js.map": "/Personal_Site/static/js/main.0386e911.js.map"
+    "main.css": "/VikramKad.github.io/static/css/main.aa60583c.css",
+    "main.js": "/VikramKad.github.io/static/js/main.d3353a68.js",
+    "static/media/Proj2Preview1.png": "/VikramKad.github.io/static/media/Proj2Preview1.ca72abf5a461a923f2eb.png",
+    "static/media/linkedinlogo.ico": "/VikramKad.github.io/static/media/linkedinlogo.33d3e4d8779a77b4c4c4.ico",
+    "static/media/Proj1-feature.png": "/VikramKad.github.io/static/media/Proj1-feature.23e1b11cebfdd23e4ec1.png",
+    "static/media/Proj1Preview1.png": "/VikramKad.github.io/static/media/Proj1Preview1.23278edfb18ff899fc62.png",
+    "static/media/Proj1Preview2.png": "/VikramKad.github.io/static/media/Proj1Preview2.4098541aa05745d37d5a.png",
+    "static/media/Proj1-onboarding.png": "/VikramKad.github.io/static/media/Proj1-onboarding.1c7e8a381ce43420bccd.png",
+    "static/media/Proj1-hero.png": "/VikramKad.github.io/static/media/Proj1-hero.1e53ca7f9fffca1b09e8.png",
+    "static/media/LINESeedSans_XBd.otf": "/VikramKad.github.io/static/media/LINESeedSans_XBd.8eb1fc06339f10f9db75.otf",
+    "static/media/LINESeedSans_Rg.otf": "/VikramKad.github.io/static/media/LINESeedSans_Rg.d2860eb55bd7501e02da.otf",
+    "static/media/LINESeedSans_Th.otf": "/VikramKad.github.io/static/media/LINESeedSans_Th.ee6cfc3e921251456d06.otf",
+    "static/media/LINESeedSans_Bd.otf": "/VikramKad.github.io/static/media/LINESeedSans_Bd.61d1db089c2c4c48d535.otf",
+    "static/media/LINESeedSans_He.otf": "/VikramKad.github.io/static/media/LINESeedSans_He.fcbb429a1af0ad8b222e.otf",
+    "static/media/Proj2Preview2.png": "/VikramKad.github.io/static/media/Proj2Preview2.7d65e3fef82c7da1f388.png",
+    "static/media/Proj1-impact.png": "/VikramKad.github.io/static/media/Proj1-impact.b8cd6250a435caa8477a.png",
+    "index.html": "/VikramKad.github.io/index.html",
+    "main.aa60583c.css.map": "/VikramKad.github.io/static/css/main.aa60583c.css.map",
+    "main.d3353a68.js.map": "/VikramKad.github.io/static/js/main.d3353a68.js.map"
   },
   "entrypoints": [
-    "static/css/main.36b28fe9.css",
-    "static/js/main.0386e911.js"
+    "static/css/main.aa60583c.css",
+    "static/js/main.d3353a68.js"
   ]
 }
